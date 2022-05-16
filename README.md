@@ -1,1 +1,2 @@
-# This is the repo for my blog site.
+# General
+This repository contains a under construction blog site.

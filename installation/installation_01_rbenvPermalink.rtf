@@ -1,0 +1,162 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red159\green160\blue28;\red64\green11\blue217;
+\red47\green180\blue29;\red180\green36\blue25;\red192\green192\blue192;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c68468\c68012\c14208;\cssrgb\c32308\c18668\c88227;
+\cssrgb\c20238\c73898\c14947;\cssrgb\c76409\c21698\c12524;\cssrgb\c79889\c79890\c79889;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Mon Mar 14 14:22:37 on ttys001\
+afdzlebron@Andress-MBP ~ % xcode-select --install \
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates\
+afdzlebron@Andress-MBP ~ % sudo xcode-select --install\
+Password:\
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates\
+afdzlebron@Andress-MBP ~ % export SDKROOT=$(xcrun --show-sdk-path) \
+afdzlebron@Andress-MBP ~ % ruby -v \
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]\
+afdzlebron@Andress-MBP ~ % Install Ruby \
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]\
+               [-o owner] file1 file2\
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]\
+               [-o owner] file1 ... fileN directory\
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...\
+afdzlebron@Andress-MBP ~ % brew install ruby \
+Running `brew update --preinstall`...\
+\cf3 Warning:\cf2  ruby 3.1.1 is already installed and up-to-date.\
+To reinstall 3.1.1, run:\
+  brew reinstall ruby\
+afdzlebron@Andress-MBP ~ % echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.zshrc\
+afdzlebron@Andress-MBP ~ % which ruby \
+/usr/bin/ruby\
+afdzlebron@Andress-MBP ~ % ruby -v \
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]\
+afdzlebron@Andress-MBP ~ % brew install rbenv \
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:e0fec6a49fd80cc
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.71
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:258a94bef
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/pkg-config/manifests/0.29.2_3
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:80f141e
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ruby-build/manifests/20220218
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ruby-build/blobs/sha256:13f78a4
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/rbenv/manifests/1.2.0
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/rbenv/blobs/sha256:a2ca52c4fe3b
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf5 ==>\cf2  
+\f1\b Installing dependencies for rbenv: \cf5 m4\cf2 , \cf5 autoconf\cf2 , \cf5 pkg-config\cf2  and \cf5 ruby-build
+\f0\b0 \cf2 \
+\cf5 ==>\cf2  
+\f1\b Installing rbenv dependency: \cf5 m4
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Pouring m4--1.4.19.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/m4/1.4.19: 13 files, 724.4KB\
+\cf5 ==>\cf2  
+\f1\b Installing rbenv dependency: \cf5 autoconf
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Pouring autoconf--2.71.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/autoconf/2.71: 71 files, 3.2MB\
+\cf5 ==>\cf2  
+\f1\b Installing rbenv dependency: \cf5 pkg-config
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Pouring pkg-config--0.29.2_3.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/pkg-config/0.29.2_3: 11 files, 624.0KB\
+\cf5 ==>\cf2  
+\f1\b Installing rbenv dependency: \cf5 ruby-build
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Pouring ruby-build--20220218.all.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/ruby-build/20220218: 557 files, 278.8KB\
+\cf5 ==>\cf2  
+\f1\b Installing \cf5 rbenv
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Pouring rbenv--1.2.0.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/rbenv/1.2.0: 35 files, 106.8KB\
+\cf4 ==>\cf2  
+\f1\b Running `brew cleanup rbenv`...
+\f0\b0 \
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\
+afdzlebron@Andress-MBP ~ % curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash\
+Checking for `rbenv' in PATH: \cf5 /usr/local/bin/rbenv\cf2 \
+Checking for rbenv shims in PATH: \cf6 not found\cf2 \
+  The directory `/Users/afdzlebron/.rbenv/shims' must be present in PATH for rbenv to work.\
+  Please run `rbenv init' and follow the instructions.\
+\
+Checking `rbenv install' support: \cf5 /usr/local/bin/rbenv-install\cf2  (ruby-build 20220218)\
+Counting installed Ruby versions: 
+\f1\b \cf3 none
+\f0\b0 \cf2 \
+  There aren't any Ruby versions installed under `/Users/afdzlebron/.rbenv/versions'.\
+  You can install Ruby versions like so: 
+\f1\b \cf7 rbenv install 3.1.1
+\f0\b0 \cf2 \
+Checking RubyGems settings: \cf5 OK\cf2 \
+Auditing installed plugins: \cf5 OK\cf2 \
+afdzlebron@Andress-MBP ~ % \
+}

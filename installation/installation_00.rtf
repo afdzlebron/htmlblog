@@ -1,0 +1,672 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red64\green11\blue217;\red47\green180\blue29;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c32308\c18668\c88227;\cssrgb\c20238\c73898\c14947;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Sun Mar 13 18:47:37 on console\
+afdzlebron@Andress-MBP ~ % xcode-select --install \
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates\
+afdzlebron@Andress-MBP ~ % ruby -v \
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]\
+afdzlebron@Andress-MBP ~ % gem install --user-install bundler jekyll \
+Fetching bundler-2.3.9.gem\
+WARNING:  You don't have /Users/afdzlebron/.gem/ruby/2.6.0/bin in your PATH,\
+	  gem executables will not run.\
+Successfully installed bundler-2.3.9\
+Parsing documentation for bundler-2.3.9\
+Installing ri documentation for bundler-2.3.9\
+Done installing documentation for bundler after 0 seconds\
+Fetching public_suffix-4.0.6.gem\
+Fetching addressable-2.8.0.gem\
+Fetching colorator-1.1.0.gem\
+Fetching eventmachine-1.2.7.gem\
+Fetching http_parser.rb-0.8.0.gem\
+Fetching em-websocket-0.5.3.gem\
+Fetching concurrent-ruby-1.1.9.gem\
+Fetching i18n-1.10.0.gem\
+Fetching ffi-1.15.5.gem\
+Fetching sassc-2.4.0.gem\
+Fetching jekyll-sass-converter-2.2.0.gem\
+Fetching rb-fsevent-0.11.1.gem\
+Fetching rb-inotify-0.10.1.gem\
+Fetching listen-3.7.1.gem\
+Fetching jekyll-watch-2.2.1.gem\
+Fetching kramdown-2.3.1.gem\
+Fetching kramdown-parser-gfm-1.1.0.gem\
+Fetching liquid-4.0.3.gem\
+Fetching mercenary-0.4.0.gem\
+Fetching forwardable-extended-2.6.0.gem\
+Fetching pathutil-0.16.2.gem\
+Fetching rouge-3.28.0.gem\
+Fetching safe_yaml-1.0.5.gem\
+Fetching unicode-display_width-1.8.0.gem\
+Fetching jekyll-4.2.2.gem\
+Fetching terminal-table-2.0.0.gem\
+Successfully installed public_suffix-4.0.6\
+Successfully installed addressable-2.8.0\
+Successfully installed colorator-1.1.0\
+Building native extensions. This could take a while...\
+ERROR:  Error installing jekyll:\
+	ERROR: Failed to build gem native extension.\
+\
+    current directory: /Users/afdzlebron/.gem/ruby/2.6.0/gems/eventmachine-1.2.7/ext\
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220314-10862-1ftjocf.rb extconf.rb\
+checking for -lcrypto... *** extconf.rb failed ***\
+Could not create Makefile due to some reason, probably lack of necessary\
+libraries and/or headers.  Check the mkmf.log file for more details.  You may\
+need configuration options.\
+\
+Provided configuration options:\
+	--with-opt-dir\
+	--without-opt-dir\
+	--with-opt-include\
+	--without-opt-include=$\{opt-dir\}/include\
+	--with-opt-lib\
+	--without-opt-lib=$\{opt-dir\}/lib\
+	--with-make-prog\
+	--without-make-prog\
+	--srcdir=.\
+	--curdir\
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)\
+	--with-ssl-dir\
+	--without-ssl-dir\
+	--with-ssl-include\
+	--without-ssl-include=$\{ssl-dir\}/include\
+	--with-ssl-lib\
+	--without-ssl-lib=$\{ssl-dir\}/lib\
+	--with-openssl-config\
+	--without-openssl-config\
+	--with-pkg-config\
+	--without-pkg-config\
+	--with-cryptolib\
+	--without-cryptolib\
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)\
+You have to install development tools first.\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:546:in `block in try_link0'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/tmpdir.rb:93:in `mktmpdir'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:543:in `try_link0'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:789:in `try_func'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1016:in `block in have_library'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:331:in `open'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'\
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/mkmf.rb:1011:in `have_library'\
+	from extconf.rb:8:in `block in check_libs'\
+	from extconf.rb:8:in `all?'\
+	from extconf.rb:8:in `check_libs'\
+	from extconf.rb:95:in `<main>'\
+\
+To see why this extension failed to compile, please check the mkmf.log which can be found here:\
+\
+  /Users/afdzlebron/.gem/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/eventmachine-1.2.7/mkmf.log\
+\
+extconf failed, exit code 1\
+\
+Gem files will remain installed in /Users/afdzlebron/.gem/ruby/2.6.0/gems/eventmachine-1.2.7 for inspection.\
+Results logged to /Users/afdzlebron/.gem/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/eventmachine-1.2.7/gem_make.out\
+1 gem installed\
+afdzlebron@Andress-MBP ~ % ruby -v \
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]\
+afdzlebron@Andress-MBP ~ % brew install ruby \
+Running `brew update --preinstall`...\
+\cf3 ==>\cf2  
+\f1\b Auto-updated Homebrew!
+\f0\b0 \
+Updated 2 taps (homebrew/core and homebrew/cask).\
+\cf3 ==>\cf2  
+\f1\b New Formulae
+\f0\b0 \
+aarch64-elf-binutils                     linode-cli\
+aarch64-elf-gcc                          linux-headers@5.16\
+abi-compliance-checker                   litani\
+abi-dumper                               lua-language-server\
+alpscore                                 luau\
+arkade                                   mapproxy\
+ascii2binary                             mcfly\
+asyncapi                                 mdzk\
+atlas                                    mist\
+atmos                                    mold\
+aws-auth                                 mt32emu\
+bash-language-server                     mu-repo\
+biber                                    nerdctl\
+bk                                       netmask\
+bkt                                      numdiff\
+boost@1.76                               odo-dev\
+brev                                     oh-my-posh\
+brigade-cli                              opendht\
+btop                                     openliberty-jakartaee9\
+bvm                                      openliberty-webprofile9\
+canfigger                                pam-reattach\
+cava                                     payload-dumper-go\
+cgif                                     pdf2djvu\
+checkmake                                php@8.0\
+chroma                                   pinot\
+clang-format@11                          pip-audit\
+cloudflared                              pip-tools\
+corepack                                 pocsuite3\
+coursier                                 procyon-decompiler\
+cpptoml                                  quick-lint-js\
+cri-tools                                regula\
+csview                                   reshape\
+ctlptl                                   rizin\
+cwb3                                     roapi\
+datafusion                               rospo\
+djhtml                                   rpki-client\
+dpp                                      ruby@3.0\
+dsq                                      rune\
+dtm                                      rure\
+dynaconf                                 rustfmt\
+dynomite                                 salt-lint\
+elixir-ls                                scalingo\
+elvis                                    sdl12-compat\
+erofs-utils                              seaweedfs\
+esphome                                  sevenzip\
+etcd-cpp-apiv3                           sextractor\
+fastfec                                  sigrok-cli\
+fastp                                    smug\
+fb303                                    sniffer\
+fbthrift                                 solargraph\
+fdroidcl                                 spago\
+ffmpeg@4                                 spdx-sbom-generator\
+fisher                                   spidermonkey@78\
+fnlfmt                                   sqlfluff\
+fnt                                      sshs\
+fortran-language-server                  statix\
+fprettify                                swiftplantuml\
+fypp                                     symengine\
+gemgen                                   tagref\
+ghcup                                    tailscale\
+git-branchless                           tarlz\
+go-critic                                teku\
+goawk                                    terminalimageviewer\
+goplus                                   terraform-lsp\
+gotify                                   textidote\
+grafana-agent                            tfmigrate\
+gst-plugins-rs                           tfproviderlint\
+http-prompt                              tfschema\
+hurl                                     tidy-viewer\
+imap-backup                              tilt\
+inotify-tools                            trzsz\
+iodine                                   tsduck\
+isa-l                                    twty\
+ivtools                                  urlwatch\
+java-service-wrapper                     usbutils\
+jless                                    uutils-findutils\
+jsonschema                               uuu\
+juliaup                                  vermin\
+kdoctor                                  vkectl\
+kopia                                    vtable-dumper\
+kube-score                               webp-pixbuf-loader\
+kubernetes-cli@1.22                      websocketpp\
+kubescape                                weggli\
+kubeval                                  west\
+kyverno                                  wordle\
+libadwaita                               xkcd\
+libgrape-lite                            yamale\
+librasterlite2                           yaml-language-server\
+libsigrokdecode                          youtubeuploader\
+libsoup@2                                zbctl\
+libxls                                   zk\
+lighthouse                               zsh-fast-syntax-highlighting\
+\cf3 ==>\cf2  
+\f1\b Updated Formulae
+\f0\b0 \
+Updated 4732 formulae.\
+\cf3 ==>\cf2  
+\f1\b Renamed Formulae
+\f0\b0 \
+annie -> lux                             richmd -> rich-cli\
+mr2 -> zoro                              rt-audio -> rtaudio\
+\cf3 ==>\cf2  
+\f1\b Deleted Formulae
+\f0\b0 \
+advancemenu     eject           go@1.9          libvbucket      shorten\
+amap            es              gr-osmosdr      m2c             soundpipe\
+ape             eventlog        hardlink-osx    magnetix        srmio\
+appledoc        exomizer        henplus         makepp          svdlibc\
+balance         flasm           hornetq         marst           swiftplate\
+bbcolors        fondu           httptunnel      mboxgrep        torrentcheck\
+carina          gconf           jerasure        md              udns\
+colorsvn        gcore           kakasi          namazu          whitedb\
+contacts        gf-complete     l-smash         path-extractor  whohas\
+csv-fix         git-hooks       libbind         pdflib-lite     xtail\
+dlite           git-sh          liberasurecode  postmark        zdelta\
+dnsrend         go@1.10         libmill         rawtoaces\
+drip            go@1.11         libopendkim     redsocks\
+dshb            go@1.12         libpuzzle       sdhash\
+\cf3 ==>\cf2  
+\f1\b New Casks
+\f0\b0 \
+alpha                      jetbrains-gateway          pluginval\
+arctype                    jt-bridge                  poker-copilot\
+athens                     jump-desktop-connect       polypane\
+cleanmymac-zh              kdrive                     qth\
+clover                     kindavim                   quarto\
+confluent-cli              kmeet                      quit-all\
+creality-slicer            libcblite                  rectangle-pro\
+dbgate                     libcblite-community        remotehamradio\
+devtoys                    lunasea                    restream-chat\
+direqual                   macast                     scroll\
+doughnut                   macloggerdx                smartreporter-free\
+eliot                      manyverse                  sonic-lineup\
+fastmarks                  music-bar                  ssdreporter-free\
+fishing-funds              mysteriumvpn               steam-plus-plus\
+flycast                    nordlayer                  supernotes\
+foxit-pdf-editor           notion-enhanced            surge-xt\
+gaphor                     nozbe-personal             the-watcher\
+gcc-aarch64-embedded       only-switch                thinlinc-client\
+gridtracker                openbci                    threema-work\
+hackolade                  openin                     trex\
+hepta                      openshift-client           ujam\
+heroic                     paddle-easydl              vale-server\
+hostsx                     panwriter                  vlc-setup\
+imagex                     paperpile                  write\
+inkstitch                  pingnoo                    wsjtx\
+iptvnator                  playdate-simulator         xemu\
+\cf3 ==>\cf2  
+\f1\b Updated Casks
+\f0\b0 \
+Updated 1866 casks.\
+\cf3 ==>\cf2  
+\f1\b Deleted Casks
+\f0\b0 \
+aio-creator-neo                          nordvpn-teams\
+airqmon                                  now\
+aleo-studio                              nozbe\
+art-directors-toolkit                    omx-ebooks\
+bitshares                                optimal-layout\
+celldesigner                             password-assistant\
+doomrl                                   pd-runner\
+dusty                                    pixelpeeper\
+edenmath                                 powerword\
+eggplant                                 profilemanager\
+fastonosql                               raiderio\
+finisher-voodoo                          rcse\
+getrasplex                               red\
+harvest                                  residualvm\
+hocus-focus                              sickbeard-anime\
+hoststool                                skybox\
+jalbum                                   sql-power-architect-jdbc\
+jiohome                                  telavox-flow\
+jsui                                     tranquility\
+knox                                     trayplay\
+lilypond                                 virustotaluploader\
+liya                                     web-sharing\
+macfusion                                webex-nbr-player\
+macspice                                 webex-wrf-player\
+mathinspector                            wwdcsrt\
+mediahuman-audio-converter               yy\
+meshmixer                                zoolz\
+\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/libyaml/manifests/0.2.5
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/libyaml/blobs/sha256:56d3549b34
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2022-
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:40
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1m
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c533c1
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.1.2
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:7346c1c37
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ruby/manifests/3.1.1
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:c38f5c3ee526b
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Installing dependencies for ruby: \cf4 libyaml\cf2 , \cf4 ca-certificates\cf2 , \cf4 openssl@1.1\cf2  and \cf4 readline
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Installing ruby dependency: \cf4 libyaml
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring libyaml--0.2.5.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/libyaml/0.2.5: 10 files, 323.7KB\
+\cf4 ==>\cf2  
+\f1\b Installing ruby dependency: \cf4 ca-certificates
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring ca-certificates--2022-02-01.all.bottle.tar.gz
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Regenerating CA certificate bundle from keychain, this may take a while...
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/ca-certificates/2022-02-01: 3 files, 213.4KB\
+\cf4 ==>\cf2  
+\f1\b Installing ruby dependency: \cf4 openssl@1.1
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring openssl@1.1--1.1.1m.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/openssl@1.1/1.1.1m: 8,081 files, 18.5MB\
+\cf4 ==>\cf2  
+\f1\b Installing ruby dependency: \cf4 readline
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring readline--8.1.2.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/readline/8.1.2: 48 files, 1.6MB\
+\cf4 ==>\cf2  
+\f1\b Installing \cf4 ruby
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring ruby--3.1.1.catalina.bottle.tar.gz
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Caveats
+\f0\b0 \
+By default, binaries installed by gem will be placed into:\
+  /usr/local/lib/ruby/gems/3.1.0/bin\
+\
+You may want to add this to your PATH.\
+\
+ruby is keg-only, which means it was not symlinked into /usr/local,\
+because macOS already provides this software and installing another version in\
+parallel can cause all kinds of trouble.\
+\
+If you need to have ruby first in your PATH, run:\
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc\
+\
+For compilers to find ruby you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"\
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"\
+\
+\cf3 ==>\cf2  
+\f1\b Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/ruby/3.1.1: 15,960 files, 42.5MB\
+\cf3 ==>\cf2  
+\f1\b `brew cleanup` has not been run in the last 30 days, running now...
+\f0\b0 \
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\
+Removing: /usr/local/Cellar/ca-certificates/2021-10-26... (3 files, 208.5KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/ca-certificates--2021-10-26... (117.6KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/gdbm--1.21_1... (244.2KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/gettext--0.21... (8.5MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/git--2.33.1_1... (15MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/mpdecimal--2.5.1... (548.3KB)\
+Removing: /usr/local/Cellar/openssl@1.1/1.1.1l_1... (8,073 files, 18.5MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/openssl@1.1--1.1.1l_1... (5.2MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/pcre2--10.38_1... (2.0MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/python@3.10--3.10.0_2... (13.9MB)\
+Removing: /usr/local/Cellar/readline/8.1.1... (48 files, 1.6MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/readline--8.1.1... (534.4KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/sqlite--3.36.0... (2MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/xz--5.2.5... (387.2KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/xz_bottle_manifest--5.2.5... (7.4KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2021-10-26... (1.8KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/sqlite_bottle_manifest--3.36.0... (7.8KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/gdbm_bottle_manifest--1.21_1... (7.0KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/portable-ruby-2.6.8.yosemite.bottle.tar.gz... (8.8MB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/readline_bottle_manifest--8.1.1... (7.5KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/python@3.10_bottle_manifest--3.10.0_2... (21.5KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/openssl@1.1_bottle_manifest--1.1.1l_1... (8.7KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/mpdecimal_bottle_manifest--2.5.1... (6.9KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/gettext_bottle_manifest--0.21... (10.5KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/git_bottle_manifest--2.33.1_1... (13.6KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/pcre2_bottle_manifest--10.38_1... (8.5KB)\
+Removing: /Users/afdzlebron/Library/Caches/Homebrew/Cask/visual-studio-code--1.61.2... (103.5MB)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/gdbm... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/mpdecimal... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/readline... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/sqlite... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/xz... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/ca-certificates... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/gettext... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/pcre2... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/openssl@1.1... (64B)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/python@3.10... (2 files, 2.5KB)\
+Removing: /Users/afdzlebron/Library/Logs/Homebrew/git... (64B)\
+Pruned 1 symbolic links and 8 directories from /usr/local\
+\cf3 ==>\cf2  
+\f1\b Upgrading 2 dependents of upgraded formulae:
+\f0\b0 \
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.\
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\
+sqlite 3.36.0 -> 3.38.1, python@3.10 3.10.0_2 -> 3.10.2\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.38.1
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:29fc15cfa2d
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.23
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/gdbm/blobs/sha256:47e4821fa0379
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/python/3.10/manifests/3.10.2
+\f0\b0 \
+######################################################################## 100.0%\
+\cf3 ==>\cf2  
+\f1\b Downloading https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:5c8db1
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+\f0\b0 \
+######################################################################## 100.0%\
+\cf4 ==>\cf2  
+\f1\b Upgrading \cf4 sqlite
+\f0\b0 \cf2 \
+
+\f1\b   3.36.0 -> 3.38.1 
+\f0\b0 \
+\
+\cf3 ==>\cf2  
+\f1\b Pouring sqlite--3.38.1.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/sqlite/3.38.1: 11 files, 4.3MB\
+\cf3 ==>\cf2  
+\f1\b Running `brew cleanup sqlite`...
+\f0\b0 \
+Removing: /usr/local/Cellar/sqlite/3.36.0... (11 files, 4.2MB)\
+\cf4 ==>\cf2  
+\f1\b Upgrading \cf4 python@3.10
+\f0\b0 \cf2 \
+
+\f1\b   3.10.0_2 -> 3.10.2 
+\f0\b0 \
+\
+\cf4 ==>\cf2  
+\f1\b Installing dependencies for python@3.10: \cf4 gdbm
+\f0\b0 \cf2 \
+\cf4 ==>\cf2  
+\f1\b Installing python@3.10 dependency: \cf4 gdbm
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring gdbm--1.23.catalina.bottle.tar.gz
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/gdbm/1.23: 24 files, 987.3KB\
+\cf4 ==>\cf2  
+\f1\b Installing \cf4 python@3.10
+\f0\b0 \cf2 \
+\cf3 ==>\cf2  
+\f1\b Pouring python@3.10--3.10.2.catalina.bottle.tar.gz
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b /usr/local/Cellar/python@3.10/3.10.2/bin/python3 -m ensurepip
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b /usr/local/Cellar/python@3.10/3.10.2/bin/python3 -m pip install -v --no-deps
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b Caveats
+\f0\b0 \
+Python has been installed as\
+  /usr/local/opt/python@3.10/bin/python3\
+\
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to\
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\
+  /usr/local/opt/python@3.10/libexec/bin\
+\
+You can install Python packages with\
+  /usr/local/opt/python@3.10/bin/pip3 install <package>\
+They will install into the site-package directory\
+  /usr/local/lib/python3.10/site-packages\
+\
+tkinter is no longer included with this formula, but it is available separately:\
+  brew install python-tk@3.10\
+\
+See: https://docs.brew.sh/Homebrew-and-Python\
+\
+python@3.10 is keg-only, which means it was not symlinked into /usr/local,\
+because this is an alternate version of another formula.\
+\
+If you need to have python@3.10 first in your PATH, run:\
+  echo 'export PATH="/usr/local/opt/python@3.10/bin:$PATH"' >> ~/.zshrc\
+\
+For compilers to find python@3.10 you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/python@3.10/lib"\
+\
+\cf3 ==>\cf2  
+\f1\b Summary
+\f0\b0 \
+
+\f2 \uc0\u55356 \u57210 
+\f0   /usr/local/Cellar/python@3.10/3.10.2: 3,133 files, 56.5MB\
+\cf3 ==>\cf2  
+\f1\b Running `brew cleanup python@3.10`...
+\f0\b0 \
+Removing: /usr/local/Cellar/python@3.10/3.10.0_2... (3,302 files, 58.2MB)\
+\cf4 ==>\cf2  
+\f1\b Checking for dependents of upgraded formulae...
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b No broken dependents found!
+\f0\b0 \
+\cf4 ==>\cf2  
+\f1\b Caveats
+\f0\b0 \
+\cf3 ==>\cf2  
+\f1\b ruby
+\f0\b0 \
+By default, binaries installed by gem will be placed into:\
+  /usr/local/lib/ruby/gems/3.1.0/bin\
+\
+You may want to add this to your PATH.\
+\
+ruby is keg-only, which means it was not symlinked into /usr/local,\
+because macOS already provides this software and installing another version in\
+parallel can cause all kinds of trouble.\
+\
+If you need to have ruby first in your PATH, run:\
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc\
+\
+For compilers to find ruby you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"\
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"\
+\
+\cf3 ==>\cf2  
+\f1\b python@3.10
+\f0\b0 \
+Python has been installed as\
+  /usr/local/opt/python@3.10/bin/python3\
+\
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to\
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\
+  /usr/local/opt/python@3.10/libexec/bin\
+\
+You can install Python packages with\
+  /usr/local/opt/python@3.10/bin/pip3 install <package>\
+They will install into the site-package directory\
+  /usr/local/lib/python3.10/site-packages\
+\
+tkinter is no longer included with this formula, but it is available separately:\
+  brew install python-tk@3.10\
+\
+See: https://docs.brew.sh/Homebrew-and-Python\
+\
+python@3.10 is keg-only, which means it was not symlinked into /usr/local,\
+because this is an alternate version of another formula.\
+\
+If you need to have python@3.10 first in your PATH, run:\
+  echo 'export PATH="/usr/local/opt/python@3.10/bin:$PATH"' >> ~/.zshrc\
+\
+For compilers to find python@3.10 you may need to set:\
+  export LDFLAGS="-L/usr/local/opt/python@3.10/lib"\
+\
+afdzlebron@Andress-MBP ~ % ~/.zshrc \
+zsh: permission denied: /Users/afdzlebron/.zshrc\
+afdzlebron@Andress-MBP ~ % ~/.zshrc \
+zsh: permission denied: /Users/afdzlebron/.zshrc\
+afdzlebron@Andress-MBP ~ % open -e ~/.zshrc \
+afdzlebron@Andress-MBP ~ % \
+}
